@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const API = axios.create({
-    baseURL: "http://localhost:2707/api/v1",
+    baseURL: "https://task-assignment-backend-1-byfc.onrender.com/api/v1",
 });
 
 API.interceptors.request.use((req)=>{
